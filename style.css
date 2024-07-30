@@ -1,0 +1,74 @@
+@charset "UTF-8";
+:root {
+  --font-primary: "A1ゴシック R", "A1 Gothic R";
+  --font-secondary: "ヒラギノ角ゴ オールド W6 JIS2004", "Hiragino Sans Old W6 JIS2004";
+  --font-jp: "見出ゴMB31", "Midashi Go MB31";
+  --font-en: "Montserrat", sans-serif;
+  --clr-main: #D92B44;
+  --clr-sub: #FFEDEF;
+  --clr-sub2: #FFA0B6;
+  --clr-body: #000;
+  --clr-link: #000;
+  --clr-wht: #fff;
+  --clr-blk: #000;
+  --bg-main: #D92B44;
+  --bg-main-hvr: #1A72A4;
+  --bg-sub: #FFEDEF;
+  --bg-wht: #fff;
+  --bg-off_wht: #FCF9F4;
+  --bg-blk: #000;
+  --bg-cta: #E17A40;
+  --bg-cta-hvr: #DD6B2A;
+  --transit-default: all 0.4s ease-out
+}
+
+body {
+  line-height: 1;
+  background: #fff;
+  color: #333
+}
+
+nav ul {
+  list-style: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+/* =======================
+header
+========================== */
+.header {
+    position:fixed;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    writing-mode: vertical-rl;
+    font-feature-settings: "pkna";
+    width: 3.125rem;
+    color: #fff;
+    color: var(--clr-wht);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999
+}
+
+.header-logo {
+  top: 90px;
+  left: 100px;
+
+  a {
+    gap: 30px;
+  }
+}
+
